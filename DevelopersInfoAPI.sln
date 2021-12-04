@@ -5,13 +5,15 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveloperInfo.API", "DeveloperInfo.API\DeveloperInfo.API.csproj", "{A6DFAEBF-9990-4ECE-AFF5-074E1D1614ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperInfo.ServiceContracts", "DevelopersInfo.ServiceContracts\DeveloperInfo.ServiceContracts.csproj", "{9804E8DF-39D4-43DC-B594-52B558FEA25B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveloperInfo.ServiceContracts", "DevelopersInfo.ServiceContracts\DeveloperInfo.ServiceContracts.csproj", "{9804E8DF-39D4-43DC-B594-52B558FEA25B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperInfo.Infrastructure", "DeveloperInfo.Infrastructure\DeveloperInfo.Infrastructure.csproj", "{F53444D2-AABF-49BC-97DF-C5A3E56DD546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveloperInfo.Infrastructure", "DeveloperInfo.Infrastructure\DeveloperInfo.Infrastructure.csproj", "{F53444D2-AABF-49BC-97DF-C5A3E56DD546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperInfo.Models", "DevelopersInfo.Models\DeveloperInfo.Models.csproj", "{3069D426-3D13-4D16-9179-260F9256563E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveloperInfo.Models", "DevelopersInfo.Models\DeveloperInfo.Models.csproj", "{3069D426-3D13-4D16-9179-260F9256563E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperInfo.ServiceImplementations", "DeveloperInfo.ServiceImplementations\DeveloperInfo.ServiceImplementations.csproj", "{760AF187-BA59-4D50-B9CC-D952430DC827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveloperInfo.ServiceImplementations", "DeveloperInfo.ServiceImplementations\DeveloperInfo.ServiceImplementations.csproj", "{760AF187-BA59-4D50-B9CC-D952430DC827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperInfo.Tests", "DeveloperInfo.Tests\DeveloperInfo.Tests.csproj", "{FB013A7B-3C92-4B6A-A4FF-9B021A1FDD98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{760AF187-BA59-4D50-B9CC-D952430DC827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760AF187-BA59-4D50-B9CC-D952430DC827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760AF187-BA59-4D50-B9CC-D952430DC827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB013A7B-3C92-4B6A-A4FF-9B021A1FDD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB013A7B-3C92-4B6A-A4FF-9B021A1FDD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB013A7B-3C92-4B6A-A4FF-9B021A1FDD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB013A7B-3C92-4B6A-A4FF-9B021A1FDD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -59,8 +59,8 @@ namespace DeveloperInfo.Models.Web
                 ImageUrl = developer.ImageUrl,
                 LastName = developer.LastName,
                 Name = developer.Name,
-                SocialNetworks = developer.SocialNetworks.Select(x => new SocialNetworkData { SocialNetwork = x.SocialNetwork.Name, Url = x.Url }).ToList(),
-                Technologies = developer.Technologies.Select(x => x.Technology.Name).ToArray()
+                SocialNetworks = developer.SocialNetworks?.Select(x => new SocialNetworkData { SocialNetwork = x.SocialNetwork.Name, Url = x.Url }).ToList() ?? new List<SocialNetworkData>(),
+                Technologies = developer.Technologies?.Select(x => x.Technology.Name).ToArray() ?? new string[1]
             };
         }
     }
